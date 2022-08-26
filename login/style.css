@@ -1,0 +1,86 @@
+*{
+  font-family: Nunito;
+        }
+body{
+            background-image: "./" no-repeat;
+            background-size: cover;
+        }
+
+
+        .mycard{
+          /* border: 1px solid red; */
+       width: 20%;
+            margin: 200px auto 200px 400px;
+            padding: 30px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            background: white;
+            box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.253);
+        }
+
+
+        .text-input, button, .g-btn{
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+
+        .my-btn{
+            background: #3e9ea2;
+            color: white;
+            border: none;
+            font-size: 0.8em;
+            margin-top: 20px;
+            padding: 10px;
+            transition-duration: 300ms;
+        }
+
+
+        .my-btn:hover{
+            background-color: white;
+            outline: 1px solid #3e9ea2;
+            color: #3e9ea2;
+            transform: translateY(-3px);
+            
+        }
+
+
+        .text-input{
+            padding: 10px;
+            border: 1px solid rgb(100, 100, 100);
+            color: rgb(100, 100, 100);
+            margin-bottom: 15px;
+        }
+
+
+        label{
+            margin-top: 15px;
+            color: rgb(100, 100, 100);
+        }
+
+
+        .g-btn{
+            background: white;
+            padding: 10px;
+            border: 1px solid #3e9fa28c;
+            color: #3e9fa28c;
+            transition-duration: 300ms;
+        }
+
+
+        .g-btn:hover{
+            border: 1px solid #3e9fa2;
+            color: #3e9fa2;
+        }
+
+
+        .form-title{
+            font-family: Nunito;
+        }
+
+
+        .my-form{
+            padding: 10px 0 ;
+        }
